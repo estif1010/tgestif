@@ -1,6 +1,10 @@
-from telegram.ext import ApplicationBuilder, CommandHandler
 from telegram import Update
-from telegram.ext import ContextTypes
+from telegram.ext import (
+    ApplicationBuilder,
+    CommandHandler,
+    ContextTypes
+)
+
 import os
 
 TOKEN = os.getenv("BOT_TOKEN")
