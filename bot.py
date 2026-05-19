@@ -3,8 +3,8 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+TOKEN = os.getenv("8855122418:AAFOHNPs_6__QuaAxnM1mObeFqaJIOFdc9s")
+ADMIN_ID = int(os.getenv("664924393", "0"))
 
 users = {}
 pending_deposits = {}
